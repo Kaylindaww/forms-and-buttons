@@ -1,0 +1,61 @@
+*{box-sizing: border-box}
+
+
+  input[type=text], input[type=password], input[type=Email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: wheat;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: lightgray;
+  outline: none;
+}
+
+hr {
+  border: 1px solid wheat;
+  margin-bottom: 25px;
+}
+
+
+button {
+  background-color:brown;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 50;
+}
+
+button:hover {
+  opacity:1;
+}
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color:green;
+  opacity: 50;
+}
+
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
